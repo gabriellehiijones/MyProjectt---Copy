@@ -15,7 +15,7 @@ function Register() {
         setLoginAttempted(true);
 
         // Trimite datele către server
-        await axios.post('https://marketplace-shop-listing.com/register', { username, password })
+        await axios.post('http://localhost:3000/register', { username, password })
         .then(res => {
             if (res.data.status === 'error') {
                 setErrorMessage(res.data.message);

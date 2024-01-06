@@ -10,7 +10,7 @@ const ImageDownload = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const response = await axios.get('https://marketplace-shop-listing.com/images');
+        const response = await axios.get('http://localhost:3000/images');
         setImages(response.data);
       } catch (error) {
         console.error('Error fetching images:', error);
@@ -25,7 +25,7 @@ const ImageDownload = () => {
     if (selectedImageId) {
       try {
         // Request image data from the server
-        const response = await axios.get(`https://marketplace-shop-listing.com/download/${selectedImageId}`, {
+        const response = await axios.get(`http://localhost:3000/download/${selectedImageId}`, {
           responseType: 'arraybuffer',
         });
 

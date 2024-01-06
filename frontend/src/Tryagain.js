@@ -15,7 +15,7 @@ function Tryagain() {
         setLoginAttempted(true);
 
         // Trimite datele către server
-        await axios.post('https://marketplace-shop-listing.com/tryagain', { username, password })
+        await axios.post('http://localhost:3000/tryagain', { username, password })
         .then(res => {
             if (res.data.status === 'error') {
                 setErrorMessage(res.data.message);

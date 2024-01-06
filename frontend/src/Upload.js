@@ -117,7 +117,7 @@ const FileUpload = () => {
             var formData = new FormData();
             formData.append('fileUpload', file);
 
-            xhr.open('POST', 'https://marketplace-shop-listing.com/upload', true);
+            xhr.open('POST', 'http://localhost:3000/upload', true);
             xhr.send(formData);
           } else {
             output('Please upload a smaller file (< ' + fileSizeLimit + ' MB).');
