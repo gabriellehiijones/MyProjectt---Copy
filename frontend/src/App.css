@@ -1,0 +1,206 @@
+
+.App{
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  /* display: flex; */
+  justify-content:center;
+
+}
+
+.error-message {
+  color: #ff0000; /* culoare roșie */
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+#last-para{
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 13px;
+/* width: 400px; */
+  /* align-items: center; */
+}
+#forgot {
+  padding: 2rem;
+  font-size: 13px;
+}
+
+hr{
+  width: 90%;
+}
+#face-first{
+  margin-top: 1rem;
+  font-size: 4rem;
+  color:#1877f2;
+}
+#face-two{
+  
+  color: black;
+  font-size: 20px;
+}
+#facebook-content{
+  margin-bottom: 5rem;
+  color: white;
+/* border: 2px solid red; */
+text-align: center;
+align-items: center;
+/* width: 309px;  */
+/* width:250px ; */
+/* text-align: center; */
+/* margin-top: 25%; */
+}
+
+#last-link{
+  color: black;
+  
+  
+  
+}
+#btt-login{
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px; 
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+ 
+}
+
+#btt-newaccount{
+  background-color: green;
+  color: white;
+  border: none;
+  width: 60%;
+  font-weight: 500;
+  align-items: center;
+  /* margin-top: ; */
+  border-radius: 5px;
+}
+a{
+  padding-top: 2rem;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.error-message {
+  border: 2px solid #ff4136;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ff4136;
+  color: #fff;
+  margin-bottom: 10px;
+}
+ @media screen and (min-width:375px) {
+  body{
+    background-color: #fff;
+    /* border: 4px solid brown; */
+    margin: 0;
+  
+  }
+
+  .App{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 10%;
+    
+    /* font-size: 1rem; */
+    /* justify-content: center; */
+  
+  }
+  #form-div{
+    align-items: center;
+    margin-top: 20px;
+    /* border: 2px solid blue; */
+    text-align: center;   
+  }
+  #facebook-content{
+    width: 309px;
+  }
+  form{
+   
+  width: 300px;
+  border: 1px solid #ddd; /* Gri deschis */
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  align-items: center; 
+  text-align: center;
+ } 
+ #btt-login{
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px; 
+  line-height: 48px;
+  padding: 0 16px;
+  max-width: 250px;
+
+}
+
+ input{
+  width: 98%;
+  height: 30px;
+  padding: 8px;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f5f6f7;
+}
+
+#face-id {
+ 
+  color: #1877f2;
+  font-size: 20px;
+}
+ } 
+
+ @media screen and (min-width:1200px) {
+
+  body{
+    background-color: #fff;
+    /* border: 4px solid brown; */
+    margin: 0;
+  
+  }
+
+  .App{
+    display: flex;
+    /* border: 3px solid purple; */
+    margin-top: 10%;
+    flex-direction: row; 
+   }   
+
+   .error-message {
+    border: 2px solid #ff4136;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ff4136;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+   #facebook-content{
+    text-align: left;
+    margin-right: 20%;
+    font-size: 1rem;
+   }
+ input{
+  width: 98%;
+  height: 30px;
+  padding: 8px;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+  
+   } 
+   
